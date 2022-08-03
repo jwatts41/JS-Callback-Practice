@@ -4,7 +4,7 @@ function move(element) {
     function moveToCoordinates(left, bottom) {
         element.style.left = left + 'px'
         element.style.bottom = bottom + 'px'
-    }
+    }   
 
     return {
         to: moveToCoordinates
