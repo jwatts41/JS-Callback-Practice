@@ -42,6 +42,10 @@ function moveCharacter(){
             direction = 'south'
         }
     })
+    document.addEventListener('keyup', function(e){
+        direction = null
+    })
+    
     
                                   
 
